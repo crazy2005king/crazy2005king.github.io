@@ -1,0 +1,25 @@
+# Site settings
+title: CK Blog
+name: CK Blog
+url: "https://crazy2005king.github.io"
+email: crazy2010king@gmail.com
+description: CK Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+twitter_username: CK  # Twitter ID
+github_username:  CK # Github ID
+weibo_username: CK  # Weibo ID
+facebook_username: CK  # Facebook ID
+duoshuo_username: CK # Duoshuo ID
+baidushare_id: 898605931111111111 #  百度分享 ID
+baidutongji_id: 28cf5fa48a599e39c5cc760931de942f1111111111 # 百度统计 ID
+google-analytics_id: UA-50593531-11111111111  # Google Analytics ID
+rss_url: "/feed.xml"  # RSS 订阅 URL
+logo_image: "/images/logo.png"  # LOGO 图片地址
+# Build settings
+gems: [jekyll-paginate]
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+paginate: 8
+paginate_path: page/:num
+ 
