@@ -36,16 +36,16 @@ You can see the theme running on [my blog](http://www.crazy2010king.com/).
 title: CK's Personal Site
 name: CK's Personal Site
 url: "http://www.crazy2010king.com"
-email: waylau521@gmail.com
+email: CK@gmail.com
 description: CK's Personal Site
 baseurl: "" # the subpath of your site, e.g. /blog/
-twitter_username: waylau521
-github_username:  waylau
-weibo_username: waylau521
-facebook_username: waylau521
-duoshuo_username: waylau
+twitter_username: CK
+github_username:  CK
+weibo_username: CK
+facebook_username: CK
+duoshuo_username: CK
 baidushare_id: 89860593
-baidutongji_id: 28cf5fa48a599e39c5cc760931de942f
+baidutongji_id: 28cf5fa48a599e39c5cc760931de942f1111111111
 rss_url: "/feed.xml"
 logo_image: "/images/logo.png"
 # Build settings
