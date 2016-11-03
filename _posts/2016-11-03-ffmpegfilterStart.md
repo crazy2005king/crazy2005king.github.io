@@ -1,8 +1,5 @@
-ffmpeg过滤器入门介绍
-===============
 
-
--------------
+---
 layout: post
 title: ffmpeg过滤器入门介绍
 date: 2016-11-03 10:53
@@ -10,7 +7,13 @@ author: admin
 comments: true
 categories: [Blog]
 tags: [ffmpeg] [filter]
--------------
+---
+
+
+
+ffmpeg过滤器入门介绍
+===============
+
 
 参考资料：
 ---------------
