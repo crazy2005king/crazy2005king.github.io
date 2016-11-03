@@ -2,6 +2,16 @@ ffmpeg过滤器入门介绍
 ===============
 
 
+-------------
+layout: post
+title: ffmpeg过滤器入门介绍
+date: 2016-11-03 10:53
+author: admin
+comments: true
+categories: [Blog]
+tags: [ffmpeg] [filter]
+-------------
+
 参考资料：
 ---------------
 + [FFmpeg filter简介](http://www.cnblogs.com/tocy/p/ffmpeg-filter-intro.html)
