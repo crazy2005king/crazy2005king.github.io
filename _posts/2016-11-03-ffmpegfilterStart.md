@@ -9,11 +9,6 @@ tags: [ffmpeg] [filter]
 ---
 
 
-
- ffmpeg过滤器入门介绍
-
-
-
 参考资料：
 ---------------
 + [FFmpeg filter简介](http://www.cnblogs.com/tocy/p/ffmpeg-filter-intro.html)
