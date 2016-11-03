@@ -5,7 +5,7 @@ date: 2016-11-03 10:53
 author: admin
 comments: true
 categories: [Blog]
-tags: [ffmpeg] [filter]
+tags: [ffmpeg, filter]
 ---
 
 
