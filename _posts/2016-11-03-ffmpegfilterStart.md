@@ -8,23 +8,26 @@ categories: [Blog]
 tags: [ffmpeg, filter]
 ---
 
+ffmpeg过滤器入门介绍
+===============
 
-## 参考资料：
 
+参考资料：
+---------------
 + [FFmpeg filter简介](http://www.cnblogs.com/tocy/p/ffmpeg-filter-intro.html)
 + [ffmpeg filter过滤器 基础实例及全面解析](http://blog.csdn.net/newchenxf/article/details/51364105)
 
 
 
 
-## 本文说明：
-
+本文说明：
+---------------
 + 对ffmpeg过滤器的入门介绍，主要基于网文“[FFmpeg filter简介](http://www.cnblogs.com/tocy/p/ffmpeg-filter-intro.html)”
 
 
 
-## 引言及示例
-
+引言及示例
+---------------
 ### 提供了一整套的基于filter的机制
 filter本身是一个插件的形式，可以快速的组装需要的效果,
 比如下面的filter，可以实现视频的水平镜像效果:
@@ -88,8 +91,8 @@ ffplay -f lavfi mptestsrc=t=dc_luma
 ffplay -f lavfi life=s=300x200:mold=10:r=60:ratio=0.1:death_color=#C83232:life_color=#00ff00,scale=1200:800:flags=16
 `````````````````````
 
-## 基本原理
-
+基本原理
+---------------
 ffmpeg filter可以认为是一些预定义的范式，可以实现类似积木的多种功能的自由组合。
 **每个filter都有固定数目的输入和输出，而且实际使用中不允许有空悬的输入输出端。**
 使用文本描述时我们可以通过标识符指定输入和输出端口，将不同filter串联起来，构成更复杂的filter。
@@ -141,8 +144,8 @@ ffmpeg.exe、ffplay.exe能够通过filter处理原始的音视频数据。
 `````````````````````
 
 
-## filtergraph的基本语法和构成。
-
+filtergraph的基本语法和构成。
+---------------
 ### 在libavfilter, 一个filter可以包含多个输入、多个输出。
 下图是一个filtergraph的示例：
 
@@ -188,8 +191,8 @@ split、overlay位于另一个线性链。
 + 对于没有音频、视频输入的filter称为source filter，
 + 没有音频、视频输出的filter称为sink filter。
 
-## 经典的filter
-
+经典的filter
+---------------
 
 ffmpeg支持的所有filter可以通过filters查看。
 这里选几个相对经典的filter。
@@ -276,8 +279,8 @@ ffmpeg支持的所有filter可以通过filters查看。
 + source filter
   主要是movie、amovie filter。从movie容器中读取音频或者视频帧。
   
-## 实例demo
-
+实例demo
+---------------
 
 ffmpeg提供了很多有趣的filter实例，
 详见Fancy Filtering Examples。
