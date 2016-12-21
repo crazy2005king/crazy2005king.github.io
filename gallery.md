@@ -1,6 +1,6 @@
 ---
 layout: gallery
-title: Gallery
+title: 画廊
 permalink: /gallery/
 ---
 

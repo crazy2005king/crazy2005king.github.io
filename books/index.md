@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Books
+title: 书籍
 permalink: /books/
 ---
 
