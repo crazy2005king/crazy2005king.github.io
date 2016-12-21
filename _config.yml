@@ -6,10 +6,10 @@ email: crazy2010king@gmail.com
 description: CK Blog
 baseurl: "" # the subpath of your site, e.g. /blog/
 twitter_username: CK  # Twitter ID
-github_username:  CK # Github ID
+github_username:  crazy2005king # Github ID
 weibo_username: CK  # Weibo ID
 facebook_username: CK  # Facebook ID
-duoshuo_username: CK # Duoshuo ID
+duoshuo_username: crazy2005king # Duoshuo ID
 baidushare_id: 898605931111111111 #  百度分享 ID
 baidutongji_id: 28cf5fa48a599e39c5cc760931de942f1111111111 # 百度统计 ID
 google-analytics_id: UA-50593531-11111111111  # Google Analytics ID
