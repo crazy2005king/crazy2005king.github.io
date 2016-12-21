@@ -18,7 +18,7 @@ permalink: /about/
 
 ###Contact:
 
-* blog:[www.crazy2010king.com](http://www.crazy2010king.com)
+* blog:[www.ckwang.win](http://www.ckwang.win)
 * gmail: [crazy2010king@gmail.com](mailto:crazy2010king@gmail.com)
 * weibo: [crazy2010king](http://weibo.com/crazy2010king)
 * twitter: [crazy2010king](https://twitter.com/crazy2010king)
@@ -27,7 +27,7 @@ permalink: /about/
 
 ###Open source:
 
-* Github : [crazy2010king](https://github.com/crazy2010king)
+* Github : [crazy2005king](https://github.com/crazy2005king)
 
 ----
 

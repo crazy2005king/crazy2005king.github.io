@@ -1,5 +1,5 @@
 /**
- * Created by crazy2005king.com on 2015/4/19.
+ * Created by ckwang.win on 2016/4/19.
  */
 $(function(){
     NProgress.start();
