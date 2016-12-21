@@ -11,13 +11,13 @@ weibo_username: CK  # Weibo ID
 facebook_username: CK  # Facebook ID
 duoshuo_username: ckwang # Duoshuo ID
 baidushare_id: 898605931111111111 #  百度分享 ID
-baidutongji_id: crazy2006king # 百度统计 ID
+baidutongji_id: crazy2016king # 百度统计 ID
 google-analytics_id: UA-89296169-1  # Google Analytics ID
 rss_url: "/feed.xml"  # RSS 订阅 URL
 logo_image: "/images/logo.png"  # LOGO 图片地址
 # Build settings
 gems: [jekyll-paginate]
-markdown: rdiscount
+markdown: kramdown
 highlighter: pygments
 permalink: /:title/
 paginate: 8
