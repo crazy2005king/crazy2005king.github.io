@@ -1,15 +1,15 @@
 set BLOGROOTPATH=H:
 echo BLOGROOTPATH=%BLOGROOTPATH%
 
-set BLOGPATH="H:\ArtDesign\"
-echo BLOGPATH=%BLOGPATH%
+set IMGPATH=.\food\
+echo IMGPATH=%IMGPATH%
 
 
-set FILENAME1="2016food001"
+set FILENAME1=2016food001
 echo FILENAME1=%FILENAME1%
 
 
-convert -resize 192 %FILENAME1%.jpg %FILENAME1%_sl.jpg 
+convert -resize 192 %IMGPATH%%FILENAME1%.jpg %FILENAME1%_sl.jpg 
 
 convert %FILENAME1%_sl.jpg  -gravity southeast -fill black -pointsize 16 -draw "text 5,5 'www.ckwang.win'" %FILENAME1%_s.jpg
 
