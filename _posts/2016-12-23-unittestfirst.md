@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 继续集成与单元测试工具的选择
+title: 持续集成与单元测试工具的选择
 date: 2016-12-22 9:12
 author: admin
 comments: true
