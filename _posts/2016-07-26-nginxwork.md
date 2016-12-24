@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Nginx特点介绍
+title: Nginx
 date: 2016-07-26 17:31
 author: admin
 comments: true
