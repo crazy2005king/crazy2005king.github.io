@@ -107,7 +107,8 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 	- 多平台的支持
 	
 + 简单示例：
-```````````````````
+
+	```````````````````
 	//接口类
 	class FooInterface {
 	public:
@@ -140,7 +141,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
         cout << "Returned Value: " << returnValue << endl;
         return EXIT_SUCCESS;
 	}
-```````````````````
+	```````````````````
 
 #### C++语言-google test 
 
