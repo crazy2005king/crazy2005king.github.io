@@ -162,8 +162,9 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 + 简单示例：
 
 ``````````````````````````````
-	#include <gtest/gtest.h>
-
+    
+    #include <gtest/gtest.h>
+    
 	TEST(FooTest, HandleNoneZeroInput)
 	{
 		EXPECT_EQ(2, Foo(4, 10));
