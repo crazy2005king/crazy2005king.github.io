@@ -160,7 +160,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 
 
 + 简单示例：
-	``````````````````````
+```````````````
 	#include <gtest/gtest.h>
 
 	TEST(FooTest, HandleNoneZeroInput)
@@ -176,7 +176,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 		//运行测试用例
 		return RUN_ALL_TESTS();
 	}
-	``````````````````````
+```````````````
 
 
 
@@ -186,7 +186,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 
 + 简单示例：
 
-	`````````````````````````
+```````````````
 	//测试对象
 	int add(int a, int b)   
 	{  
@@ -209,7 +209,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 		//运行测试用例
 		return run_tests(tests);  
 	}  
-	`````````````````````````
+```````````````
 	
 #### 测试工程组织形式： 
 ![](gtest_project.jpg)
@@ -265,7 +265,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 
 + 代码示例：
 
-	`````````````````````
+```````````````
 	#include "CppUTest/CommandLineTestRunner.h"
 	//测试用例
 	TEST(FirstTestGroup, SecondTest)
@@ -277,7 +277,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 		//运行测试用例
 		return CommandLineTestRunner::RunAllTests(ac, av);
 	}
-	`````````````````````
+```````````````
 
 
 #### cpputest_gmock
@@ -286,7 +286,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 + 仅仅使用少量的C++特性，可移植性好，能同时用于C和C++
 + 简单示例：
 
-	``````````````````````
+```````````````
 	#include "CppUTest/TestHarness.h"
 	#include "CppUTestExt/MockSupport.h"
 
@@ -309,7 +309,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 		productionCode();
 		mock().checkExpectations();
 	}
-	``````````````````````
+```````````````
 
 
 ### 4)unittest-cpp
@@ -318,7 +318,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 + 提供了测试套件和测试夹具机制
 + 使用示例：
 
-	`````````````````````````````
+```````````````
 	#include "UnitTest++/UnitTestpp.hpp"
 
 	UnitTest::RunAllTest();
@@ -352,7 +352,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 	{
 		return UnitTest::RunAllTests();
 	}		
-	`````````````````````````````
+```````````````
 
   
 
