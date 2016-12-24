@@ -233,7 +233,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 
 #### 简单示例：
 
-	``````````````````````````
+	```
 	#include <boost/test/included/unit_test.hpp>
 
 	//测试套件
@@ -248,7 +248,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 	}
 
 	BOOST_AUTO_TEST_SUITE_END( )
-	``````````````````````````
+	```
 
 
 
