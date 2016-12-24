@@ -8,9 +8,10 @@ categories: [Blog]
 tags: [ffmpeg, filter]
 ---
 
-ffmpeg过滤器入门介绍
-===============
 
+
+为了统一filter库API接口，ffmpeg提出了参考DirectDraw实现了高质量、高效、灵活的音视频filter接口。
+<!-- more -->
 
 参考资料：
 ---------------
