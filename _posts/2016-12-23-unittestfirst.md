@@ -9,8 +9,7 @@ tags: [CI, Jenkins, gtest ]
 ---
 
 
-
-
+# 1
 
 本文对持续集成（CI）、代码分析工具、单元测试工具进行了比较:
 
@@ -219,7 +218,9 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 + TestCase:必须非常明确的表示出哪些是测试案例，哪些是其他的辅助文件。
 + Checker:抽象出一些通用的检查点代码
 
+
 ### 2)Boost test
+
 #### 自身特性：
 + 移植性不好，需要stl, rtti, Boost支持，而且编译出的程序比较大
 + 提供了内存检测机制
@@ -227,6 +228,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 + 提供测试用例，测试夹具，测试套件等概念，并能够以任意的复杂度组织它们
 + 支持命令行，可以指定运行任意一个测试套件或测试用例
 + 测试信息可以显示为多种格式，如平文件或者xml格式
+
 
 #### 简单示例：
 
@@ -247,7 +249,10 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 	BOOST_AUTO_TEST_SUITE_END( )
 	``````````````````````````
 
+
+
 ### 3)cpputest tools
+
 #### cpputest
 
 + 开源社区支持力度小
@@ -272,6 +277,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 		return CommandLineTestRunner::RunAllTests(ac, av);
 	}
 	`````````````````````
+
 
 #### cpputest_gmock
 
@@ -303,6 +309,7 @@ Jenkins就像Windows, 上手容易，功能丰富。而 BuildBot就如Linux，�
 		mock().checkExpectations();
 	}
 	``````````````````````
+
 
 ### 4)unittest-cpp
 
