@@ -12,13 +12,9 @@ tags: [CI, Jenkins, gtest ]
 # 持续集成与单元测试工具的选择
 
 本文对持续集成（CI）、代码分析工具、单元测试工具进行了比较:
-
 持续集成工具包括， Jenkins，buildbot， CDash;
-
 代码分析工具包括， PC-Lint，Linux_gcov， Windows_OpenCppCoverage;
-
 单元测试工具包括， google test tools，Boost test， cpputest tools，unittest-cpp;
-
 <!-- more -->
 
 ## 持续集成工具介绍：
