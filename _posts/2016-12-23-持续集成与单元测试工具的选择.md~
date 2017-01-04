@@ -8,7 +8,6 @@ categories: [Blog]
 tags: [CI, Jenkins, gtest ]
 ---
 
-# 1
 
 
 本文对持续集成（CI）、代码分析工具、单元测试工具进行了比较:
@@ -19,68 +18,6 @@ tags: [CI, Jenkins, gtest ]
 
 单元测试工具包括， google test tools，Boost test， cpputest tools，unittest-cpp;
 <!-- more -->
-
-## 网上资料收集：
-### 持续集成：
-
-+ [持续集成项目集合](http://www.oschina.net/project/tag/344/ci?lang=0&os=0&sort=view&p=2)
-+ [六款不容错过的开源持续集成工具](http://cloud.51cto.com/art/201508/487605.htm)
-
-+ [有哪些团队在用gerrit来做代码审核？效果如何？](https://www.zhihu.com/question/20506040)
-+ [gerrit官网](https://github.com/gerrit-review/gerrit)
-+ [如何利用Github进行代码审查](https://realm.io/cn/news/codereview-howto/)
-+ [谷歌是如何做代码审查的](http://www.vaikan.com/things-everyone-should-do-code-review/)
-
-
-+ [Jenkins学习笔记（五）插件之Gerrit trigger plugin](http://kurenai.elastos.org/2013/03/22/jenkins%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E4%BA%94%EF%BC%89%E6%8F%92%E4%BB%B6%E4%B9%8Bgerrit-trigger-plugin/)
-+ [Jenkins官网](https://jenkins.io/)
-+ [JENKINS总结](http://www.cnblogs.com/ceshisanren/p/5639869.html)
-+ [不甘寂寞的Jenkins：从持续集成到持续部署](http://geek.csdn.net/news/detail/110720)
-+ [jenkins下搭建c++持续集成环境](http://www.cnblogs.com/dyllove98/archive/2013/07/31/3228543.html)
-+ [jenkins + Git 搭建持续集成环境](http://www.cnblogs.com/dojo-lzz/p/5125619.html)
-+ [基于jenkins结合git实现web程序的多服务器批量发布](http://birdinroom.blog.51cto.com/7740375/1404930)
-+ [基于jenkins整合ant和svn的持续集成环境-图文详解](http://p.primeton.com/articles/53cdf475e138230195000002)
-
-+ [buildbot官网](http://buildbot.net/)
-+ [BuildBot官网源代码](https://github.com/buildbot/buildbot)
-+ [使用BuildBot实现持续集成](https://www.oschina.net/question/12_9513)
-+ [使用BuildBot搭建持续集成环境](http://tonybai.com/2011/05/18/set-up-ci-environment-with-buildbot/)
-+ [持续交付利器-python持续集成工具Buildbot(Mozilla和谷歌等使用)介绍](https://my.oschina.net/u/1433482/blog/650559)
-+ [Buildbot集成Hyper_容器云，新型Serverless CI的诞生？](http://www.weixinla.com/document/45105593.html)
-+ [buildbot官网使用文档](http://docs.buildbot.net/current/tutorial/firstrun.html)
-+ [buildbot官方安装文档](http://trac.buildbot.net/wiki/DownloadInstall)
-
-### 单元测试：
-
-+ [单元测试项目集合](http://www.oschina.net/project/tag/222?lang=21)
-+ [代码管理分析/审查/优化](http://www.oschina.net/project/tag/196/code-optimization)
-+ [PC-Lint](https://github.com/heroanxiaobo/PC-Lint)
-
-+ [Linux_gcov分析代码覆盖率](https://github.com/gcovr/gcovr)
-+ [GCC---gcov、lcov与genhtml 使用心得](http://blog.sina.com.cn/s/blog_7e4ac8b501018b27.html)
-
-+ [Windows_OpenCppCoverage分析代码覆盖率](https://opencppcoverage.codeplex.com/)
-+ [Windows_OpenCppCoverage介绍](http://www.cnblogs.com/coderzh/p/OpenCppCoverage.html)
-+ [Windows_OpenCppCoverage官网](https://opencppcoverage.codeplex.com/)
-
-+ [google test tools官方源代码](https://github.com/google/googletest)
-+ [编写优美的GTest测试案例](http://www.cnblogs.com/coderzh/archive/2010/01/09/beautiful-testcase.html)
-+ [Google C++单元测试框架GoogleTest(总)](http://www.cnblogs.com/jycboy/p/gtest_catalog.html)
-+ [Google C++单元测试框架GoogleTest---GMock的CheatSheet文档](http://www.cnblogs.com/jycboy/p/gmock_cheatsheet.html)
-+ [google mock C++单元测试框架](http://blog.csdn.net/lionzl/article/details/8667003)
-+ [Google C++单元测试框架GoogleTest---AdvancedGuide译文上](http://www.cnblogs.com/jycboy/p/gtest_AdvancedGuide.html)
-+ [Google C++单元测试框架GoogleTest---AdvancedGuide译文下](http://www.cnblogs.com/jycboy/p/AdvancedGuide2.html)
-
-+ [Boost test官网](https://github.com/boostorg/test)
-
-+ [cpputest tools官网源代码](https://github.com/cpputest/cpputest)
-+ [cpputest tools官网文档](http://cpputest.github.io/mocking_manual.html)
-+ [CppUTest的mock使用](http://www.codeweblog.com/cpputest%E7%9A%84mock%E4%BD%BF%E7%94%A8/)
-
-+ [unittest-cpp官网源代码](https://github.com/unittest-cpp/unittest-cpp)
-
-
-
 
 ## 持续集成工具介绍：
 
